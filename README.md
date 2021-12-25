@@ -61,7 +61,7 @@ A 2D CFAR filter, that suppresses the noise and computes a dynamic threshold to 
 * The mean of all the training cells around each cell of interest is computed. This mean is considered as the initial threshold.
 * An offset (Iteratively fine-tuned) is added to the threshold in the previous step, resulting the final threshold.
 * Thus a vector of thresholds for each cell of interest is computed. 
-* The RDM is filtered according to the latest, dynamic, threhsold values. This results in the folliwing map, which contains only the valid target signal.
+* The RDM is filtered according to the latest, dynamic, threhsold values. This results in the folliwing map, which contains only the valid target signal:
 ![image](https://user-images.githubusercontent.com/48198017/147384975-9fed51b6-b38e-4e83-bb6b-a252e1b854c3.png)
 
 ## Conclusion
