@@ -55,8 +55,8 @@ From  the above image it can be observed that the map has significant amount of 
 ## Continous False Alarm Rate (CFAR)
 A 2D CFAR filter, that suppresses the noise and computes a dynamic threshold to maintain a constant false alarm rate is implemented as follows: 
 * A filter of following configuratin is considered: 
-<img src="https://user-images.githubusercontent.com/48198017/147384857-dee6d2a9-7c41-43f6-ad20-7714ce715ad4.png" width="779" height="414" />
-#![image](https://user-images.githubusercontent.com/48198017/147384857-dee6d2a9-7c41-43f6-ad20-7714ce715ad4.png)
+<img src="https://user-images.githubusercontent.com/48198017/147384857-dee6d2a9-7c41-43f6-ad20-7714ce715ad4.png" width="400" height="250" />
+
 * The number of training cells and guard cells are iteratively determined. 
 * The filter is slid over the complete RDM. 
 * The mean of all the training cells around each cell of interest is computed. This mean is considered as the initial threshold.
