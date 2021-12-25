@@ -70,4 +70,4 @@ Thus a pipeline is built to:
 * Generate transmission and recieving signal
 * Esitmate the range of the target 
 * Generate Range Doppler Map (RDM)
-* Filter RDM through CFAR and determine the range and velocity of the object with high certainity
+* Filter RDM through CFAR and determine the range and velocity of the object with reduced number of false alarms
